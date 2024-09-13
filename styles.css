@@ -1,0 +1,107 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+}
+.netflix-logo{
+    width: 80px;
+}
+/* .poster-1{
+    display: flex;
+    justify-content: center;
+   padding-top: 20px;
+    poster} */
+.posterContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .posterContainer img {
+    width: 100%;
+    height: 700px;
+  }
+  
+  .posterDetails {
+    position: absolute;
+    color: white;
+    padding: 40px;
+    top: 45%;
+  }
+  .posterDetails h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .posterDetails p {
+    width: 40%;
+    font-size: 20px;
+    margin-top: 20px;
+    z-index: 1;
+    text-align: justify;
+  }
+  
+  .buttons button {
+    background: none;
+    border: none;
+    color: white;
+    background-color: rgba(204, 196, 196, 0.521);
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  
+  .buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.414);
+  }
+  .bottomfade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.918));
+    z-index: 0;
+  }
+  
+  /* POSTER */
+  
+  /* 1st Category */
+  #netflixOriginals{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: visible;
+    gap:14px;
+    padding: 5px 20px;
+  }
+  .netflixOriginals-h1{
+    padding: 0px 20px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .netflixOriginalContainer{
+    display: flex;  
+    height: 250px;
+  }
+  .netflixOriginalContainer img:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease-in-out;
+  }
+  #netflixOriginals::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .netflixOriginalContainer img{
+    width: auto;
+  }
+  
+  /* 1st Category */
